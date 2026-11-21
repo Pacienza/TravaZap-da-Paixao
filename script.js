@@ -408,6 +408,7 @@ const frasesEmVariosIdiomas = [
     "INFINITAMMUS",
 ];
 
+
 enviarScript(frasesEmVariosIdiomas)
     .then(e => console.log(`Código finalizado, ${e} mensagens enviadas`))
     .catch(console.error);
